@@ -2,7 +2,10 @@
   <param name="robot_description" command="$(find xacro)/xacro $(find gazebo_iris)/models/goal/urdf/Goal.xacro"/>
   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model Goal"/>
 
+  <arg name="national_world" default="$(find gazebo_iris)/worlds/national.world"/>
+
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(arg national_world)"/>
     <arg name="paused" value="true"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>

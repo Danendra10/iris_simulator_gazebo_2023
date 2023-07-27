@@ -47,7 +47,7 @@ material KRI/Carpet
 
       texture_unit
       {
-        texture Lapangan_Nasional.png
+        texture KRI_NATIONAL_FIELD.png
         filtering trilinear
       }
     }
@@ -84,7 +84,7 @@ material KRI/FieldBorder
 
       texture_unit
       {
-        texture kosongan.png
+        texture empty_world.png
         filtering trilinear
       }
     }
