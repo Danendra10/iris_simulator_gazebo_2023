@@ -19,8 +19,11 @@ jobs:
         with:
           ros-distro: noetic
 
+      - name: Initialize rosdep
+        run: sudo rosdep init
+
       - name: Install package dependencies
-        run: sudo apt-get update && rosdep install --from-paths . --ignore-src --rosdistro noetic -y
+        run: rosdep update && rosdep install --from-paths . --ignore-src --rosdistro noetic -y
 
       - name: Build the package
         run: source /opt/ros/noetic/setup.bash && catkin_make
