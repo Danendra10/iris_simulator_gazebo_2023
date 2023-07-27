@@ -1,4 +1,4 @@
-material bola/Orange
+material ball/Orange
 {
     receive_shadows off
     technique

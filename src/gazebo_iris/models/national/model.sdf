@@ -32,8 +32,8 @@
         </geometry>
         <material>
           <script>
-            <uri>model://KRI_Nasional/materials/scripts/</uri>
-            <uri>model://KRI_Nasional/materials/textures/</uri>
+            <uri>model://national/materials/scripts/</uri>
+            <uri>model://national/materials/textures/</uri>
             <name>KRI/Carpet</name>
           </script>
         </material>
@@ -52,8 +52,8 @@
         </geometry>
         <material>
           <script>
-            <uri>file://KRI_Nasional/materials/scripts/</uri>
-            <uri>file://KRI_Nasional/materials/textures/</uri>
+            <uri>file://national/materials/scripts/</uri>
+            <uri>file://national/materials/textures/</uri>
             <name>KRI/FieldBorder</name>
           </script>
         </material>
@@ -70,8 +70,8 @@
         </geometry>
         <material>
           <script>
-            <uri>file://KRI_Nasional/materials/scripts/</uri>
-            <uri>file://KRI_Nasional/materials/textures/</uri>
+            <uri>file://national/materials/scripts/</uri>
+            <uri>file://national/materials/textures/</uri>
             <name>KRI/FieldBorder</name>
           </script>
         </material>
@@ -88,8 +88,8 @@
         </geometry>
         <material>
           <script>
-            <uri>file://KRI_Nasional/materials/scripts/</uri>
-            <uri>file://KRI_Nasional/materials/textures/</uri>
+            <uri>file://national/materials/scripts/</uri>
+            <uri>file://national/materials/textures/</uri>
             <name>KRI/FieldBorder</name>
           </script>
         </material>
@@ -105,8 +105,8 @@
         </geometry>
         <material>
           <script>
-            <uri>file://KRI_Nasional/materials/scripts/</uri>
-            <uri>file://KRI_Nasional/materials/textures/</uri>
+            <uri>file://national/materials/scripts/</uri>
+            <uri>file://national/materials/textures/</uri>
             <name>KRI/FieldBorder</name>
           </script>
         </material>
@@ -250,8 +250,8 @@
         </geometry>
         <material>
           <script>
-            <uri>file://KRI_Nasional/materials/scripts/</uri>
-            <uri>file://KRI_Nasional/materials/textures/</uri>
+            <uri>file://national/materials/scripts/</uri>
+            <uri>file://national/materials/textures/</uri>
             <name>KRI/Net</name>
           </script>
         </material>
@@ -275,8 +275,8 @@
         </geometry>
         <material>
           <script>
-            <uri>file://KRI_Nasional/materials/scripts/</uri>
-            <uri>file://KRI_Nasional/materials/textures/</uri>
+            <uri>file://national/materials/scripts/</uri>
+            <uri>file://national/materials/textures/</uri>
             <name>KRI/Net</name>
           </script>
         </material>
@@ -300,8 +300,8 @@
         </geometry>
         <material>
           <script>
-            <uri>file://KRI_Nasional/materials/scripts/</uri>
-            <uri>file://KRI_Nasional/materials/textures/</uri>
+            <uri>file://national/materials/scripts/</uri>
+            <uri>file://national/materials/textures/</uri>
             <name>KRI/Net</name>
           </script>
         </material>
@@ -322,8 +322,8 @@
         </geometry>
         <material>
           <script>
-            <uri>file://KRI_Nasional/materials/scripts/</uri>
-            <uri>file://KRI_Nasional/materials/textures/</uri>
+            <uri>file://national/materials/scripts/</uri>
+            <uri>file://national/materials/textures/</uri>
             <name>KRI/Net</name>
           </script>
         </material>
@@ -469,8 +469,8 @@
         </geometry>
         <material>
           <script>
-            <uri>file://KRI_Nasional/materials/scripts/</uri>
-            <uri>file://KRI_Nasional/materials/textures/</uri>
+            <uri>file://national/materials/scripts/</uri>
+            <uri>file://national/materials/textures/</uri>
             <name>KRI/Net</name>
           </script>
         </material>
@@ -494,8 +494,8 @@
         </geometry>
         <material>
           <script>
-            <uri>file://KRI_Nasional/materials/scripts/</uri>
-            <uri>file://KRI_Nasional/materials/textures/</uri>
+            <uri>file://national/materials/scripts/</uri>
+            <uri>file://national/materials/textures/</uri>
             <name>KRI/Net</name>
           </script>
         </material>
@@ -519,8 +519,8 @@
         </geometry>
         <material>
           <script>
-            <uri>file://KRI_Nasional/materials/scripts/</uri>
-            <uri>file://KRI_Nasional/materials/textures/</uri>
+            <uri>file://national/materials/scripts/</uri>
+            <uri>file://national/materials/textures/</uri>
             <name>KRI/Net</name>
           </script>
         </material>
@@ -541,8 +541,8 @@
         </geometry>
         <material>
           <script>
-            <uri>file://KRI_Nasional/materials/scripts/</uri>
-            <uri>file://KRI_Nasional/materials/textures/</uri>
+            <uri>file://national/materials/scripts/</uri>
+            <uri>file://national/materials/textures/</uri>
             <name>KRI/Net</name>
           </script>
         </material>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="Goal" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find gazebo_iris)/urdf/materials.xacro" />
+<xacro:include filename="$(find gazebo_iris)/urdf/Goal.trans" />
+<xacro:include filename="$(find gazebo_iris)/urdf/Goal.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.3678765915508032 1.0905544346862515 0.42356438593375323" rpy="0 0 0"/>
+    <mass value="1680.367038975689"/>
+    <inertia ixx="1225.859289" iyy="302.36295" izz="1094.719543" ixy="1.077607" iyz="-0.090978" ixz="92.048406"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://gazebo_iris/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://gazebo_iris/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+</robot>

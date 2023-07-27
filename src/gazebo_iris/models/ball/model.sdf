@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version="1.6">
-<model name="bola">
+<model name="ball">
   <pose>0 0 0 0 0 0</pose>
   <static>false</static>
     <link name="link">
@@ -50,14 +50,14 @@
         <geometry>
           <mesh>
             <scale>0.11 0.11 0.11</scale>
-            <uri>file://bola/meshes/ball.dae</uri>
+            <uri>file://ball/meshes/ball.dae</uri>
           </mesh>
         </geometry>
         <material>
           <script>
-            <uri>model://bola/materials/scripts</uri>
-            <uri>model://bola/materials/textures</uri>
-            <name>bola/Orange</name>
+            <uri>model://ball/materials/scripts</uri>
+            <uri>model://ball/materials/textures</uri>
+            <name>ball/Orange</name>
           </script>
         </material>
       </visual>

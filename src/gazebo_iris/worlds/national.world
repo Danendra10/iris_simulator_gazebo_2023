@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sdf version="1.4">
-  <world name="KRI_Nasional">
+  <world name="national">
     <!-- Scene -->
     <scene>
       <ambient>0.4 0.4 0.4 1</ambient>
@@ -50,7 +50,7 @@
 
     <!-- Lapangan Nasional -->
     <include>
-      <uri>model://field/national</uri>
+      <uri>model://national</uri>
     </include>
 
   </world>
