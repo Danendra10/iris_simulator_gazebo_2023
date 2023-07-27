@@ -1,0 +1,29 @@
+name: ROS Noetic Build and Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_test:
+    name: Build and Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up ROS Noetic
+        uses: uts-magic-lab/setup-ros-noetic@v1
+        with:
+          ros_version: noetic
+
+      - name: Install package dependencies
+        run: sudo apt-get update && rosdep install --from-paths . --ignore-src --rosdistro noetic -y
+
+      - name: Build the package
+        run: source /opt/ros/noetic/setup.bash && catkin_make
+
+      - name: Run tests
+        run: source /opt/ros/noetic/setup.bash && catkin_make run_tests
