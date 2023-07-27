@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <robot name="Goal" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-<xacro:include filename="$(find gazebo_iris)/urdf/materials.xacro" />
-<xacro:include filename="$(find gazebo_iris)/urdf/Goal.trans" />
-<xacro:include filename="$(find gazebo_iris)/urdf/Goal.gazebo" />
+<xacro:include filename="$(find gazebo_iris)/models/goal/urdf/materials.xacro" />
+<xacro:include filename="$(find gazebo_iris)/models/goal/urdf/Goal.trans" />
+<xacro:include filename="$(find gazebo_iris)/models/goal/urdf/Goal.gazebo" />
 <link name="base_link">
   <inertial>
     <origin xyz="0.3678765915508032 1.0905544346862515 0.42356438593375323" rpy="0 0 0"/>
@@ -13,14 +13,14 @@
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://gazebo_iris/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://gazebo_iris/models/goal/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://gazebo_iris/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://gazebo_iris/models/goal/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>

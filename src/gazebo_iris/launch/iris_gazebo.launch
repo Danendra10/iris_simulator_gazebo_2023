@@ -1,24 +1,12 @@
 <launch>
+  <param name="robot_description" command="$(find xacro)/xacro $(find gazebo_iris)/models/goal/urdf/Goal.xacro"/>
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model Goal"/>
 
-    <include file="$(find gazebo_ros)/launch/empty_world.launch">
-        <arg name="world_name" value="$(find gazebo_iris)/worlds/national.world"/>
-
-        <arg name="paused" value="false"/>
-        <arg name="verbose" value="false"/>
-        <arg name="use_sim_time" value="true" />
-    </include>
-
-    <!-- <include file="$(find gazebo_ros)/launch/empty_world.launch">
-        <arg name="paused" value="true"/>
-        <arg name="use_sim_time" value="true"/>
-        <arg name="gui" value="true"/>
-        <arg name="headless" value="false"/>
-        <arg name="debug" value="false"/>
-    </include> -->
-
-<!-- <node name="spawn_ball" pkg="gazebo_iris" type="spawn_ball.sh"/> -->
-
-        <!-- <node name="spawn_ball_model" pkg="gazebo_iris" type="spawn_model" respawn="false" output="screen"
-            args="-file $(find gazebo_iris)/models/ball/model.sdf -sdf -model ball -x 0.0 -y 0.0 -z 1.0">
-        </node> -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="paused" value="true"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
 </launch>
