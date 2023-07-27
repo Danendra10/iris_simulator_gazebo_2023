@@ -19,9 +19,6 @@ jobs:
         with:
           ros-distro: noetic
 
-      - name: Initialize rosdep
-        run: sudo rosdep init
-
       - name: Install package dependencies
         run: rosdep update && rosdep install --from-paths . --ignore-src --rosdistro noetic -y
 
