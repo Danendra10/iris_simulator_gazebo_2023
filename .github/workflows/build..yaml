@@ -15,9 +15,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set up ROS Noetic
-        uses: uts-magic-lab/setup-ros-noetic@v1
+        uses: ros/tooling/setup-ros@v1
         with:
-          ros_version: noetic
+          ros-distro: noetic
 
       - name: Install package dependencies
         run: sudo apt-get update && rosdep install --from-paths . --ignore-src --rosdistro noetic -y
